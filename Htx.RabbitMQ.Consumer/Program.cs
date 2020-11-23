@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RabbitMQ.Client;
+using System;
 
 namespace Htx.RabbitMQ.Consumer
 {
@@ -6,6 +7,7 @@ namespace Htx.RabbitMQ.Consumer
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Hello World!");
         }
     }
